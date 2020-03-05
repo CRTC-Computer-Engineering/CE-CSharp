@@ -1,0 +1,11 @@
+D:\GitHub\CE-CSharp\Exersize01_1\bin\Debug\netcoreapp3.1\Exersize01_1.exe
+D:\GitHub\CE-CSharp\Exersize01_1\bin\Debug\netcoreapp3.1\Exersize01_1.deps.json
+D:\GitHub\CE-CSharp\Exersize01_1\bin\Debug\netcoreapp3.1\Exersize01_1.runtimeconfig.json
+D:\GitHub\CE-CSharp\Exersize01_1\bin\Debug\netcoreapp3.1\Exersize01_1.runtimeconfig.dev.json
+D:\GitHub\CE-CSharp\Exersize01_1\bin\Debug\netcoreapp3.1\Exersize01_1.dll
+D:\GitHub\CE-CSharp\Exersize01_1\bin\Debug\netcoreapp3.1\Exersize01_1.pdb
+D:\GitHub\CE-CSharp\Exersize01_1\obj\Debug\netcoreapp3.1\Exersize01_1.csprojAssemblyReference.cache
+D:\GitHub\CE-CSharp\Exersize01_1\obj\Debug\netcoreapp3.1\Exersize01_1.AssemblyInfoInputs.cache
+D:\GitHub\CE-CSharp\Exersize01_1\obj\Debug\netcoreapp3.1\Exersize01_1.AssemblyInfo.cs
+D:\GitHub\CE-CSharp\Exersize01_1\obj\Debug\netcoreapp3.1\Exersize01_1.dll
+D:\GitHub\CE-CSharp\Exersize01_1\obj\Debug\netcoreapp3.1\Exersize01_1.pdb
