@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\kenwo\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\kenwo\\.nuget\\packages"
-    ]
-  }
-}

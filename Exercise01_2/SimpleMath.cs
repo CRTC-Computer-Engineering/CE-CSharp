@@ -1,4 +1,4 @@
-namespace Exersize01_2
+namespace Exercise01_2
 {
     public class SimpleMath
     {
