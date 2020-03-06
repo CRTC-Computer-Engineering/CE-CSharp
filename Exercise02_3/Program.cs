@@ -1,4 +1,5 @@
 ﻿using System;
+using JoesLib;
 
 namespace Exercise02_3
 {
@@ -6,10 +7,10 @@ namespace Exercise02_3
     {
         static void Main()
         {
-            double first_num = console_methods.getUserNumber("First Number: ");
-            double second_num = console_methods.getUserNumber("Second Number: ");
-            double third_num = console_methods.getUserNumber("Third Number: ");
-            double fourth_num = console_methods.getUserNumber("Fourth Number: ");
+            double first_num = jonsole.getUserNumber("First Number: ");
+            double second_num = jonsole.getUserNumber("Second Number: ");
+            double third_num = jonsole.getUserNumber("Third Number: ");
+            double fourth_num = jonsole.getUserNumber("Fourth Number: ");
 
             Console.WriteLine("The average of " + Convert.ToString(first_num) + ", " + 
                                                   Convert.ToString(second_num) + ", " + 

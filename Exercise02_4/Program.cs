@@ -1,4 +1,5 @@
 ﻿using System;
+using JoesLib;
 
 namespace Exercise02_4
 {
@@ -6,9 +7,9 @@ namespace Exercise02_4
     {
         static void Main()
         {
-            double _x = console_methods.getUserNumber("First Number(x): ");
-            double _y = console_methods.getUserNumber("Second Number(y): ");
-            double _z = console_methods.getUserNumber("Third Number(z): ");
+            double _x = jonsole.getUserNumber("First Number(x): ");
+            double _y = jonsole.getUserNumber("Second Number(y): ");
+            double _z = jonsole.getUserNumber("Third Number(z): ");
 
             Console.WriteLine("Result of specified numbers " + Convert.ToString(_x) + ", " + 
                                                                Convert.ToString(_y) + " and " + 
