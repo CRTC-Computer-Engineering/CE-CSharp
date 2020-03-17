@@ -9,5 +9,11 @@ namespace JoesLib
             Console.WriteLine(message);
             return Convert.ToDouble(Console.ReadLine());
         }
+
+        public static void enterToContinue()
+        {
+            Console.WriteLine("Press any key to continue.");
+            Console.ReadLine();
+        }
     }
 }
