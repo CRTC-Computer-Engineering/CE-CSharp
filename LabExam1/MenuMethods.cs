@@ -11,13 +11,13 @@ namespace LabExam1
 
         public Menu() // A constructor for our menu class
         {
-            MenuItem PrimeRib =  new MenuItem("Prime Rib", 13.99);
+            MenuItem PrimeRib =  new MenuItem("Prime Rib      ", 13.99);
             menuItems.Add(PrimeRib);
-            MenuItem FriedChicken =  new MenuItem("Fried Chicken", 8.49);
+            MenuItem FriedChicken =  new MenuItem("Fried Chicken  ", 8.49);
             menuItems.Add(FriedChicken);
-            MenuItem BakedHaddock =  new MenuItem("Baked Haddock", 9.99);
+            MenuItem BakedHaddock =  new MenuItem("Baked Haddock  ", 9.99);
             menuItems.Add(BakedHaddock);
-            MenuItem Soda =  new MenuItem("Soda", 1.99);
+            MenuItem Soda =  new MenuItem("Soda           ", 1.99);
             menuItems.Add(Soda);
         }
 

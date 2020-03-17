@@ -15,12 +15,15 @@ namespace LabExam1
             {
                 MyMenu.DisplayMenu();
                 userInput = jonsole.getUserNumber(
-@"Enter selection:
-[1] Show my order.
-[2] Add a menu item to your order.
-[3] Remove a menu item from your order.
-[4] Checkout and print your order.
-[0] Quit.");
+@"Please make a selection:
+    [1] Show my order.
+    [2] Add a menu item to my order.
+    [3] Remove a menu item from my order.
+    [4] Checkout and print my order.
+    [0] Quit.
+");
+
+                Console.Clear(); // Clear on user input
 
                 int index = 0;
                 switch (userInput)
@@ -32,14 +35,14 @@ namespace LabExam1
                     case 2:
                     index = 0;
 
-                    Console.WriteLine("Displaying Menu.");
+                    Console.WriteLine("Cafe Menu.");
                     foreach (MenuItem item in MyMenu.menuItems) // For every item in the possible menu items
                     {
                         Console.WriteLine("[{0}] {1} - {2}", index, item.itemName, item.itemCost); // Display those items with an index number
                         index++;
                     }
-                    int userSelection = Convert.ToInt16(jonsole.getUserNumber("Enter a menu item to add to your order:")); // Ask for an index number (an item)
-                    int userQty = Convert.ToInt16(jonsole.getUserNumber("Enter a qty:")); // As for a qty
+                    int userSelection = Convert.ToInt16(jonsole.getUserNumber("Please select a menu item: ")); // Ask for an index number (an item)
+                    int userQty = Convert.ToInt16(jonsole.getUserNumber("Please enter a quantity: ")); // As for a qty
                     MyMenu.addOrderItem(MyMenu.menuItems[userSelection], userQty); // Add that item, and its qty to the order list
 
                     MyMenu.DisplayOrder();
@@ -48,7 +51,7 @@ namespace LabExam1
                     case 3:
                     index = 0; // Reset
 
-                    Console.WriteLine("Displaying Your Order.");
+                    Console.WriteLine("Your Order.");
                     foreach (MenuItem item in MyMenu.selectedItems) // For every item in the possible menu items
                     {
                         Console.WriteLine("[{0}] {1} - {2}", index, item.itemName, item.itemCost); // Display those items with an index number
