@@ -8,6 +8,7 @@ namespace LabExam01
 {
     class Program
     {
+        private static int sel = 0;
         private static void DisplayMenu()
         {
             Console.ForegroundColor = ConsoleColor.Green;
@@ -21,7 +22,7 @@ namespace LabExam01
         }
         private static void GetSelection()
         {
-            int sel = Convert.ToInt32(Console.ReadLine());
+            sel = Convert.ToInt32(Console.ReadLine());
         }
         private static void ValidateSelection(ref int sel)
         { 
@@ -44,13 +45,13 @@ namespace LabExam01
                     break;
             }
         }
-        static void Main(string[] args)
+        static void Main()
         {
             DisplayMenu();
             GetSelection();
 
-            int userinput = Convert.ToInt16(Console.ReadLine());
-            ValidateSelection(ref userinput);
+            GetSelection();
+            ValidateSelection(ref sel);
         }
     }
 }
