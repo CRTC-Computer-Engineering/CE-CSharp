@@ -48,7 +48,7 @@ namespace LabExam01
         {
             DisplayMenu();
             GetSelection();
-            ValidateSelection();
+            ValidateSelection(ref sel);
         }
     }
 }
