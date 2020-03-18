@@ -48,7 +48,9 @@ namespace LabExam01
         {
             DisplayMenu();
             GetSelection();
-            ValidateSelection(ref sel);
+
+            int userinput = Convert.ToInt16(Console.ReadLine());
+            ValidateSelection(ref userinput);
         }
     }
 }
