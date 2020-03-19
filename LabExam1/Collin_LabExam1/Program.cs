@@ -23,8 +23,16 @@ namespace LabExam01
                 Console.WriteLine("         5  Quit");
                 Console.Write("  Please make a selection: ");
                 GetSelection();
+                if (sel == 5)
+                {
+                    break;
+                }
                 ValidateSelection(ref sel);
                 if (item == 5)
+                {
+                    break;
+                }
+                if (sel == 5)
                 {
                     break;
                 }
