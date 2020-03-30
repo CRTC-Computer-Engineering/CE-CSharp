@@ -1,7 +1,7 @@
 ﻿using System;
 using JoesLib;
 
-namespace Joe_Exercise03_01
+namespace Joe_Exercise03_1_2
 {
     class Program
     {
