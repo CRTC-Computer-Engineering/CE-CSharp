@@ -1,3 +1,5 @@
-dotnet new console -n "<name>"  
+mkdir <name>  
+cd <name>  
+dotnet new console -n "<yourname>_<name>"  
 dotnet run  
-dotnet add reference ..\JoesLib\JoesLib.csproj  
+dotnet add reference "..\..\Libs\JoesLib\JoesLib.csproj"
