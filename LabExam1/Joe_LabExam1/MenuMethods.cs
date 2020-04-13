@@ -6,14 +6,14 @@ namespace LabExam1
 {
     class Menu
     {
-        public List<MenuItem> menuItems = new List<MenuItem>();
-        public List<MenuItem> selectedItems = new List<MenuItem>();
+        public List<MenuItem> menuItems = new List<MenuItem>(); // Create a new list for all the items available on the menu
+        public List<MenuItem> selectedItems = new List<MenuItem>(); // Create a new list of all the items the user has selected
 
         public Menu() // A constructor for our menu class
         {
-            MenuItem PrimeRib =  new MenuItem("Prime Rib      ", 13.99);
-            menuItems.Add(PrimeRib);
-            MenuItem FriedChicken =  new MenuItem("Fried Chicken  ", 8.49);
+            MenuItem PrimeRib =  new MenuItem("Prime Rib      ", 13.99); // Create a new menu item
+            menuItems.Add(PrimeRib); // Add it to the list
+            MenuItem FriedChicken =  new MenuItem("Fried Chicken  ", 8.49); // Repeat
             menuItems.Add(FriedChicken);
             MenuItem BakedHaddock =  new MenuItem("Baked Haddock  ", 9.99);
             menuItems.Add(BakedHaddock);
@@ -21,29 +21,29 @@ namespace LabExam1
             menuItems.Add(Soda);
         }
 
-        public void DisplayMenu()
+        public void DisplayMenu() // A method to display the menu
         {
             Console.WriteLine("Menu:");
             foreach (MenuItem item in menuItems) // For every item of type MenuItem in the list menuItems, do the following.
             {
-                Console.WriteLine(item.itemName + " - " + Convert.ToString(item.itemCost));
+                Console.WriteLine(item.itemName + " - " + Convert.ToString(item.itemCost)); // Print the name and the cost
             }
         }
 
-        public void DisplayOrder()
+        public void DisplayOrder() // A method to display your order
         {
             Console.WriteLine("Your order:");
             foreach (MenuItem item in selectedItems) // For every item of type MenuItem in the list menuItems, do the following.
             {
-                Console.WriteLine(item.itemName + " - " + Convert.ToString(item.itemCost));
+                Console.WriteLine(item.itemName + " - " + Convert.ToString(item.itemCost)); // Print the name and the cost
             }
-            Console.WriteLine("Total Cost: $" + Convert.ToString(CalculateBill()));
+            Console.WriteLine("Total Cost: $" + Convert.ToString(CalculateBill())); // Show the total
             jonsole.enterToContinue();
         }
 
         public void addOrderItem(MenuItem item, int qty)
         {
-            for(int i = 0; i < qty; i++)
+            for(int i = 0; i < qty; i++) // Loop through qty times
             {
                 selectedItems.Add(item); // Add that item more than once based on the qty
             }
@@ -51,7 +51,7 @@ namespace LabExam1
 
         public void removeOrderItem(MenuItem item, int qty)
         {
-            for(int i = 0; i < qty; i++)
+            for(int i = 0; i < qty; i++) // Loop through qty times
             {
                 selectedItems.Remove(item); // Add that item more than once based on the qty
             }
