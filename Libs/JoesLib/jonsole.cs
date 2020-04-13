@@ -10,6 +10,12 @@ namespace JoesLib
             return Convert.ToDouble(Console.ReadLine());
         }
 
+        public static string getUserInput(string message)
+        {
+            Console.Write(message);
+            return Console.ReadLine();
+        }
+
         public static void enterToContinue()
         {
             Console.Write("Press any key to continue.");

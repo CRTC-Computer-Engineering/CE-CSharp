@@ -1,0 +1,28 @@
+Line 1, Point 1, X: 0
+Line 1, Point 1, Y: 0
+Line 1, Point 2, X: 10
+Line 1, Point 2, Y: 10
+Line 2, Point 1, X: 0
+Line 2, Point 1, Y: 10
+Line 2, Point 2, X: 10
+Line 2, Point 2, Y: 0
+Testing intersection of line (0, 0)-(10,10) and (0, 0)-(10,10).
+                Intersect?: True.
+                Segments Intersect?: True.
+                Intersectio location?: (5, 5).
+Press any key to continue.
+
+Line 1, Point 1, X: 10
+Line 1, Point 1, Y: 10
+Line 1, Point 2, X: 0
+Line 1, Point 2, Y: 0
+Line 2, Point 1, X: 15
+Line 2, Point 1, Y: 15
+Line 2, Point 2, X: 5
+Line 2, Point 2, Y: 5
+
+                Testing intersection of line (10, 10)-(0,0) and (10, 10)-(0,0).
+                Intersect?: True.
+                Segments Intersect?: False.
+                Intersection location?: (NaN, NaN).
+Press any key to continue.
