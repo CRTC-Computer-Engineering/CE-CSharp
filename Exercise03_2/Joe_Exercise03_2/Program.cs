@@ -26,10 +26,10 @@ namespace Joe_Exercise03_2
                 ,line1.p1.Y
                 ,line1.p2.X
                 ,line1.p2.Y
-                ,line1.p1.X
-                ,line1.p1.Y
-                ,line1.p2.X
-                ,line1.p2.Y
+                ,line2.p1.X
+                ,line2.p1.Y
+                ,line2.p2.X
+                ,line2.p2.Y
                 ,lines_intersect
                 ,segments_intersect
                 ,intersection.X
